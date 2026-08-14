@@ -1,0 +1,1 @@
+/* Public folder created for assets like master.jpg */

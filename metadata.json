@@ -1,0 +1,6 @@
+{
+  "name": "Алексеева Светлана — Авторский маникюр и педикюр",
+  "description": "Персональный сайт-портфолио и онлайн-запись мастера маникюра и педикюра Алексеевой Светланы Александровны.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

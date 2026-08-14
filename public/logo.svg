@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Rich Emerald Luxury Radial Gradient -->
+    <radialGradient id="emeraldBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0b2c21" />
+      <stop offset="70%" stop-color="#051a13" />
+      <stop offset="100%" stop-color="#020d09" />
+    </radialGradient>
+
+    <!-- Metallic Gold Foil Gradient (Matching site's text-gold-gradient) -->
+    <linearGradient id="luxuryGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="25%" stop-color="#fceecb" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="80%" stop-color="#aa7c11" />
+      <stop offset="100%" stop-color="#fceecb" />
+    </linearGradient>
+
+    <!-- Soft Ambient Inner Gold Glow -->
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Dark Emerald Background Circle -->
+  <circle cx="256" cy="256" r="248" fill="url(#emeraldBg)" stroke="url(#luxuryGold)" stroke-width="1.5" opacity="0.4" />
+
+  <!-- Outer Fine Double Gold Frame -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#luxuryGold)" stroke-width="2.5" opacity="0.9" />
+  <circle cx="256" cy="256" r="226" fill="none" stroke="url(#luxuryGold)" stroke-width="1" stroke-dasharray="8 4" opacity="0.6" />
+
+  <!-- Four Cardinal Diamond Accents on Ring -->
+  <polygon points="256,15 260,20 256,25 252,20" fill="url(#luxuryGold)" />
+  <polygon points="256,487 260,492 256,497 252,492" fill="url(#luxuryGold)" />
+  <polygon points="15,256 20,260 25,256 20,252" fill="url(#luxuryGold)" />
+  <polygon points="487,256 492,260 497,256 492,252" fill="url(#luxuryGold)" />
+
+  <!-- Main Monogram Composition -->
+  <g filter="url(#goldGlow)">
+    
+    <!-- Delicate Botanical Sprig (Weaving below 'S') -->
+    <g opacity="0.95">
+      <path d="M 120 280 C 110 340 145 400 205 418 C 240 428 280 420 310 400" 
+            fill="none" stroke="url(#luxuryGold)" stroke-width="2.5" stroke-linecap="round" />
+      <!-- Leaves -->
+      <path d="M 118 278 C 100 260 90 238 108 226 C 120 238 122 260 118 278 Z" fill="url(#luxuryGold)" />
+      <path d="M 122 312 C 98 305 88 285 104 273 C 118 283 124 298 122 312 Z" fill="url(#luxuryGold)" />
+      <path d="M 134 350 C 110 355 98 338 112 324 C 127 330 134 343 134 350 Z" fill="url(#luxuryGold)" />
+      <path d="M 158 385 C 138 401 122 391 134 375 C 148 376 156 382 158 385 Z" fill="url(#luxuryGold)" />
+      <path d="M 192 412 C 177 430 159 422 169 405 C 182 404 189 409 192 412 Z" fill="url(#luxuryGold)" />
+    </g>
+
+    <!-- LETTER 'S' - High Luxury Cormorant Style Serif Paths -->
+    <!-- Top Terminal Bulb & Curve -->
+    <path d="
+      M 312 162
+      C 305 142 285 128 254 128
+      C 214 128 184 154 184 188
+      C 184 216 204 234 238 250
+      L 268 264
+      C 308 282 332 306 332 342
+      C 332 384 296 414 246 414
+      C 202 414 172 388 165 358
+      L 182 354
+      C 188 378 210 398 245 398
+      C 280 398 312 376 312 343
+      C 312 318 294 298 258 281
+      L 228 268
+      C 192 251 166 228 166 189
+      C 166 148 204 112 255 112
+      C 292 112 322 132 330 160
+      Z"
+      fill="url(#luxuryGold)" />
+
+    <!-- LETTER 'A' - High Luxury Cormorant Style Intersecting Serif Paths -->
+    <!-- Left Thin Stem -->
+    <path d="M 276 380 L 332 140 L 348 140 L 412 380 L 392 380 L 376 318 L 306 318 L 290 380 Z
+             M 311 298 L 371 298 L 341 180 Z"
+          fill="url(#luxuryGold)" />
+
+    <!-- Serif Feet on 'A' -->
+    <path d="M 266 380 L 300 380 L 300 374 L 266 374 Z" fill="url(#luxuryGold)" />
+    <path d="M 380 380 L 422 380 L 422 374 L 380 374 Z" fill="url(#luxuryGold)" />
+
+    <!-- Top Serif Crown on 'A' -->
+    <path d="M 324 140 L 356 140 L 356 145 L 324 145 Z" fill="url(#luxuryGold)" />
+
+  </g>
+</svg>
